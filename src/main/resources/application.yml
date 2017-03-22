@@ -1,0 +1,12 @@
+spring:
+  profiles: default
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: eventm
+server:
+  port: 8080
+logging:
+  level:
+    ROOT: INFO
